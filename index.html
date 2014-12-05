@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" >
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css" >
+    <link rel="stylesheet" href="css/index.css" type="text/css" >
+    
+    <!-- LIBS -->
+    <script src="js/jquery.min.js" charset="utf-8"></script>
+    <script src="js/d3.min.js" charset="utf-8"></script>
+    <script src="js/three.min.js" charset="utf-8"></script>
+    <script src="js/AnaglyphEffect.js" charset="utf-8"></script>
+    <script src="js/ParallaxBarrierEffect.js" charset="utf-8"></script>
+    <script src="js/OculusRiftEffect.js" charset="utf-8"></script>
+    <script src="js/StereoEffect.js" charset="utf-8"></script>
+    <script src="js/iview.js" charset="utf-8"></script>
+    <script src="js/surface.min.js" charset="utf-8"></script>
+
+    <title>ProView: Protein PDB Explorer</title>
+    
+</head>
+<body>
+    <div class="container">
+
+        <h1 class="text-center">ProView: Protein PDB Explorer</h1>
+
+        <!-- CONTROL ROW -->
+
+        <div class="row" id="controls">
+            <div class="col-md-5">
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <label for="pdbInput">PDB:</label>
+                        <input type="file" id="pdbInput" class="form-control">
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <label for="csvInput">CSV:</label>
+                        <input type="file" id="csvInput" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-md-offset-2">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="opts1_1">Plot 1:</label>
+                        <div class="form-inline">
+                            <select id="opts1_1" class="form-control">
+                                <option value="-1">Select X</option>
+                            </select>
+                            <select id="opts1_2" class="form-control">
+                                <option value="-1">Select Y</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="opts2_1">Plot 2:</label>
+                        <div class="form-inline">
+                            <select id="opts2_1" class="form-control">
+                                <option value="-1">Select X</option>
+                            </select>
+                            <select id="opts2_2" class="form-control">
+                                <option value="-1">Select Y</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PLOT ROW -->
+        
+        <div class="row">
+            <div class="col-md-6">
+                <canvas id="iview" class="img-responsive">Your browser does not support WebGL.</canvas>
+            </div>
+            <div class="col-md-6">
+                <div class="row" id="plots">
+                    <div class="col-md-6" id="plot1">
+                    </div>
+                    <div class="col-md-6" id="plot2">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TRANSFORM & SUMMARY ROW -->
+        <div class="row">
+
+            <!-- TRANSFORM BOX -->
+            <div class="col-md-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">Data Transform</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="form-inline text-center">
+                            <input type="text" id="transform_name" class="form-control">
+                            <span>=</span>
+                            <select id="transform_op" class="form-control">
+                                <option value="1">Log</option>
+                                <option value="2">Square Root</option>
+                                <option value="3">Absolute</option>
+                            </select>
+                            <select id="transform_var" class="form-control">
+                                <option value="-1">Variable</option>
+                            </select>
+                            <button type="button" id="transform_apply" class="btn btn-info">Apply!</button>
+                        </div>
+
+                        <div id="transform_alert" class="alert alert-success hidden" style="margin-top: 20px" role="alert">
+                            The new variable will now appear in the selection boxes.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SUMMARY BOX -->
+            <div class="col-md-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">Summary of Properties</h3>
+                    </div>
+                    <div class="panel-body" id="summary">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- POST-LOADING JS -->
+    <script src="js/bootstrap.min.js" charset="utf-8"></script>
+    <script src="proview_3d.js" charset="utf-8"></script>
+    <script src="proview_plots.js" charset="utf-8"></script>
+</body>

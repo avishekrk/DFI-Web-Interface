@@ -1,0 +1,39 @@
+select[id*='opts']{
+    width: 45% !important;
+}
+
+#iview {
+    height: 400px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering:crispEdges;
+}
+
+.axis text{
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+svg {
+    cursor: crosshair;
+}
+
+circle {
+    fill: white;
+    stroke:black
+}
+
+circle.selected {
+    fill: red;
+    stroke: black
+}
+
+.brush .extent {
+    fill-opacity: .1;
+    stroke: green;
+    shape-rendering: crispEdges;
+}
