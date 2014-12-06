@@ -3,7 +3,7 @@ var iv = new iview('iview');
 
 // Set the default options
 var options = {};
-options["camera"] = "orthographic";
+options["camera"] = "perspective";
 options["background"] = "white";
 options["primaryStructure"] = "lines";
 options["secondaryStructure"] = "cylinder & plate";
@@ -52,4 +52,9 @@ function clearHighlight3D(){
     iv.options.selectedRes = [];
     iv.rebuildScene();
     iv.render();
-}           
+}
+
+// Load the example file if it's available
+$.get("pdb/3KFN.pdb",function(pdb){
+    iv.loadPDB(pdb);
+})
