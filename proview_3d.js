@@ -3,7 +3,7 @@ var iv = new iview('iview');
 
 // Set the default options
 var options = {};
-options["camera"] = "orthographic";
+options["camera"] = "perspective";
 options["background"] = "white";
 options["primaryStructure"] = "lines";
 options["secondaryStructure"] = "cylinder & plate";
@@ -15,24 +15,6 @@ options["selectedRes"] = [];
 //options["labels"] = "yes";
 iv.rebuildScene(options);
 iv.render();
-
-// Load the PDB when a new file is uploaded
-$("#pdbInput").change(function() {
-
-    var file = this.files[0];
-    if (file === undefined) return;
-
-    var reader = new FileReader();
-    reader.onload = function () {
-
-        // Reset the current visualization
-        clearHighlight3D();
-
-        // Load in the new PDB
-        iv.loadPDB(reader.result);
-    };
-    reader.readAsText(file);
-});
 
 // Highlight res based off what's selected in the dataset
 function highlight3D(res_array){
@@ -52,4 +34,27 @@ function clearHighlight3D(){
     iv.options.selectedRes = [];
     iv.rebuildScene();
     iv.render();
-}           
+}
+
+// Load the PDB when a new file is uploaded
+$("#pdbInput").change(function() {
+
+    var file = this.files[0];
+    if (file === undefined) return;
+
+    var reader = new FileReader();
+    reader.onload = function () {
+
+        // Reset the current visualization
+        clearHighlight3D();
+
+        // Load in the new PDB
+        iv.loadPDB(reader.result);
+    };
+    reader.readAsText(file);
+});
+
+// Load the example file if it's available
+$.get("pdb/3KFN.pdb",function(pdb){
+    iv.loadPDB(pdb);
+})

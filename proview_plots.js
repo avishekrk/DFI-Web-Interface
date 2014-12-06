@@ -455,6 +455,10 @@ $("#csvInput").change(function() {
 setup_vis1();
 setup_vis2();
 
+$.get("pdb/3KFN.csv",function(csv){
+    load_dataset(csv);
+})
+
 // Assign canvas changes to replot
 $("[id^=opts1").change(PutOnCanvas1);
 $("[id^=opts2").change(PutOnCanvas2);
