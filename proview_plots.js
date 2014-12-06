@@ -460,8 +460,8 @@ $.get("pdb/3KFN.csv",function(csv){
 })
 
 // Assign canvas changes to replot
-$("[id^=opts1").change(PutOnCanvas1);
-$("[id^=opts2").change(PutOnCanvas2);
+$("[id^='opts1']").change(PutOnCanvas1);
+$("[id^='opts2']").change(PutOnCanvas2);
 
 // Assign thransform changes to apply the transform
 $("#transform_apply").click(AddVariable);
