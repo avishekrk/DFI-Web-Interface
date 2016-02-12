@@ -18,13 +18,13 @@
     <script src="js/iview.js" charset="utf-8"></script>
     <script src="js/surface.min.js" charset="utf-8"></script>
 
-    <title>ProView: Protein PDB Explorer</title>
+    <title>Dynamic Flexibility Index (DFI)</title>
     
 </head>
 <body>
     <div class="container">
 
-        <h1 class="text-center">ProView: Protein PDB Explorer</h1>
+        <h1 class="text-center">Dynamic Flexibility Index</h1>
 
         <!-- CONTROL ROW -->
 
@@ -79,56 +79,14 @@
                 <div class="row" id="plots">
                     <div class="col-md-6" id="plot1">
                     </div>
-                    <div class="col-md-6" id="plot2">
-                    </div>
+                    #<div class="col-md-6" id="plot2">
+                    #</div>
                 </div>
             </div>
         </div>
 
         <!-- TRANSFORM & SUMMARY ROW -->
-        <div class="row">
 
-            <!-- TRANSFORM BOX -->
-            <div class="col-md-6">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">
-                        <h3 class="panel-title text-center">Data Transform</h3>
-                    </div>
-                    <div class="panel-body">
-                        <div class="form-inline text-center">
-                            <input type="text" id="transform_name" class="form-control">
-                            <span>=</span>
-                            <select id="transform_op" class="form-control">
-                                <option value="1">Log</option>
-                                <option value="2">Square Root</option>
-                                <option value="3">Absolute</option>
-                            </select>
-                            <select id="transform_var" class="form-control">
-                                <option value="-1">Variable</option>
-                            </select>
-                            <button type="button" id="transform_apply" class="btn btn-info">Apply!</button>
-                        </div>
-
-                        <div id="transform_alert" class="alert alert-success hidden" style="margin-top: 20px" role="alert">
-                            The new variable will now appear in the selection boxes.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- SUMMARY BOX -->
-            <div class="col-md-6">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">
-                        <h3 class="panel-title text-center">Summary of Properties</h3>
-                    </div>
-                    <div class="panel-body" id="summary">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
 
     <!-- POST-LOADING JS -->
     <script src="js/bootstrap.min.js" charset="utf-8"></script>

@@ -56,6 +56,7 @@
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
+
 if (typeof jQuery === 'undefined') { throw new Error('iview requires jQuery') }
 
 var iview = function (id) {
