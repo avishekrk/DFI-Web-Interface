@@ -1,0 +1,990 @@
+HEADER    GENE REGULATION                         04-NOV-99   1DC2              
+TITLE     SOLUTION NMR STRUCTURE OF TUMOR SUPPRESSOR P16INK4A, 20               
+TITLE    2 STRUCTURES                                                           
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: CYCLIN-DEPENDENT KINASE 4 INHIBITOR A (P16INK4A);          
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
+SOURCE   3 ORGANISM_COMMON: HUMAN;                                              
+SOURCE   4 ORGANISM_TAXID: 9606;                                                
+SOURCE   5 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE   6 EXPRESSION_SYSTEM_TAXID: 562;                                        
+SOURCE   7 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+SOURCE   8 EXPRESSION_SYSTEM_PLASMID: PTG                                       
+KEYWDS    ANKYRIN REPEAT, HELIX-TURN-HELIX, HELIX BUNDLE, GENE                  
+KEYWDS   2 REGULATION                                                           
+EXPDTA    SOLUTION NMR                                                          
+NUMMDL    20                                                                    
+MDLTYP    MINIMIZED AVERAGE                                                     
+AUTHOR    I.-J.L.BYEON,J.LI,C.YUAN,M.-D.TSAI                                    
+REVDAT   5   24-FEB-09 1DC2    1       VERSN                                    
+REVDAT   4   01-APR-03 1DC2    1       JRNL                                     
+REVDAT   3   11-DEC-00 1DC2    1       AUTHOR JRNL                              
+REVDAT   2   18-AUG-00 1DC2    1       AUTHOR JRNL                              
+REVDAT   1   23-DEC-99 1DC2    0                                                
+JRNL        AUTH   C.YUAN,T.L.SELBY,J.LI,I.J.BYEON,M.D.TSAI                     
+JRNL        TITL   TUMOR SUPPRESSOR INK4: REFINEMENT OF P16INK4A                
+JRNL        TITL 2 STRUCTURE AND DETERMINATION OF P15INK4B STRUCTURE            
+JRNL        TITL 3 BY COMPARATIVE MODELING AND NMR DATA.                        
+JRNL        REF    PROTEIN SCI.                  V.   9  1120 2000              
+JRNL        REFN                   ISSN 0961-8368                               
+JRNL        PMID   10892805                                                     
+REMARK   1                                                                      
+REMARK   1 REFERENCE 1                                                          
+REMARK   1  AUTH   I.-J.BYEON,J.LI,K.ERICSON,T.L.SELBY,A.TEVELEV,               
+REMARK   1  AUTH 2 H.J.KIM,P.O'MAILLE,M.-D.TSAI                                 
+REMARK   1  TITL   TUMOR SUPPRESSOR P16INK4A: DETERMINATION OF                  
+REMARK   1  TITL 2 SOLUTION STRUCTURE AND ANALYSES OF ITS INTERACTION           
+REMARK   1  TITL 3 WITH CYCLIN-DEPENDENT KINASE 4                               
+REMARK   1  REF    MOL.CELL                      V.   1   421 1998              
+REMARK   1  REFN                   ISSN 1097-2765                               
+REMARK   1  DOI    10.1016/S1097-2765(00)80042-8                                
+REMARK   2                                                                      
+REMARK   2 RESOLUTION. NOT APPLICABLE.                                          
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : X-PLOR 3.85                                          
+REMARK   3   AUTHORS     : BRUNGER                                              
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: THE STRUCTURES ARE BASED ON A TOTAL       
+REMARK   3  OF 1439 RESTRAINTS, 1372 DISTANCE RESTRAINTS, 67 TORSION ANGLE      
+REMARK   3  RESTRAINTS.                                                         
+REMARK   4                                                                      
+REMARK   4 1DC2 COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK 100                                                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 08-NOV-99.                  
+REMARK 100 THE RCSB ID CODE IS RCSB009960.                                      
+REMARK 210                                                                      
+REMARK 210 EXPERIMENTAL DETAILS                                                 
+REMARK 210  EXPERIMENT TYPE                : NMR                                
+REMARK 210  TEMPERATURE           (KELVIN) : 293                                
+REMARK 210  PH                             : 7.5                                
+REMARK 210  IONIC STRENGTH                 : 0                                  
+REMARK 210  PRESSURE                       : AMBIENT                            
+REMARK 210  SAMPLE CONTENTS                : 0.2-0.4 MM P16INK4A U-15N,         
+REMARK 210                                   13C; 4 MM HEPES, 1 MM DTT, 5       
+REMARK 210                                   UM EDTA; 95% H2O, 5% D2O; 0.2-     
+REMARK 210                                   0.4 MM P16INK4A U-15N; 4 MM        
+REMARK 210                                   HEPES, 1 MM DTT, 5 UM EDTA;        
+REMARK 210                                   95% H2O, 5% D2O; 0.2-0.4 MM        
+REMARK 210                                   P16INK4A; 4 MM HEPES, 1 MM         
+REMARK 210                                   DTT, 5 UM EDTA; 95% H2O, 5% D2O    
+REMARK 210                                                                      
+REMARK 210  NMR EXPERIMENTS CONDUCTED      : 3D_13C-SEPARATED_NOESY, 4D_        
+REMARK 210                                   13C-SEPARATED_NOESY, 4D_13C/       
+REMARK 210                                   15N-SEPARATED_NOESY, 3D_15N-       
+REMARK 210                                   SEPARATED_NOESY, HNHA, 2D NOESY    
+REMARK 210  SPECTROMETER FIELD STRENGTH    : 800 MHZ, 600 MHZ                   
+REMARK 210  SPECTROMETER MODEL             : DRX, DMX                           
+REMARK 210  SPECTROMETER MANUFACTURER      : BRUKER                             
+REMARK 210                                                                      
+REMARK 210  STRUCTURE DETERMINATION.                                            
+REMARK 210   SOFTWARE USED                 : X-PLOR 3.85, XWINNMR 2.1,          
+REMARK 210                                   FELIX 95                           
+REMARK 210   METHOD USED                   : SIMULATED ANNEALING                
+REMARK 210                                                                      
+REMARK 210 CONFORMERS, NUMBER CALCULATED   : 60                                 
+REMARK 210 CONFORMERS, NUMBER SUBMITTED    : 20                                 
+REMARK 210 CONFORMERS, SELECTION CRITERIA  : THE CLOSEST TO MEAN STRUCTURE      
+REMARK 210                                   WHICH SHOWS GOOD AGREEMENT         
+REMARK 210                                   WITH THE EXPERIMENTAL              
+REMARK 210                                   RESTRAINTS                         
+REMARK 210                                                                      
+REMARK 210 BEST REPRESENTATIVE CONFORMER IN THIS ENSEMBLE : 20                  
+REMARK 210                                                                      
+REMARK 210 REMARK: THE STRUCTURE WAS DETERMINED USING TRIPLE RESONANCE NMR      
+REMARK 210  SPECTROSCOPY.                                                       
+REMARK 215                                                                      
+REMARK 215 NMR STUDY                                                            
+REMARK 215 THE COORDINATES IN THIS ENTRY WERE GENERATED FROM SOLUTION           
+REMARK 215 NMR DATA.  PROTEIN DATA BANK CONVENTIONS REQUIRE THAT                
+REMARK 215 CRYST1 AND SCALE RECORDS BE INCLUDED, BUT THE VALUES ON              
+REMARK 215 THESE RECORDS ARE MEANINGLESS.                                       
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: TORSION ANGLES                                             
+REMARK 500                                                                      
+REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
+REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
+REMARK 500                                                                      
+REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-           
+REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI        PSI       PHI                                   
+REMARK 500  1 ALA A   5      -44.64   -145.26                                   
+REMARK 500  1 ASP A  14       20.14   -157.65                                   
+REMARK 500  1 ARG A  22       30.35    -90.79                                   
+REMARK 500  1 ARG A  47     -172.65     43.52                                   
+REMARK 500  1 MET A  52       35.08    -96.96                                   
+REMARK 500  1 MET A  53       -6.26     64.55                                   
+REMARK 500  1 MET A  54       26.79     44.53                                   
+REMARK 500  1 ALA A  68     -150.97    -80.02                                   
+REMARK 500  1 CYS A  72      155.52    -43.69                                   
+REMARK 500  1 ALA A  73     -142.26   -152.07                                   
+REMARK 500  1 THR A  77       10.18   -140.24                                   
+REMARK 500  1 LEU A 104       61.81    -68.95                                   
+REMARK 500  1 ASP A 105       29.15   -167.44                                   
+REMARK 500  1 VAL A 106     -169.86   -100.65                                   
+REMARK 500  1 ALA A 109      -83.62     52.96                                   
+REMARK 500  1 ARG A 112      -68.82     68.41                                   
+REMARK 500  1 LEU A 121      -81.03    -56.67                                   
+REMARK 500  1 THR A 137       34.52     35.56                                   
+REMARK 500  1 SER A 140       24.33   -164.61                                   
+REMARK 500  1 HIS A 142      -66.90   -123.22                                   
+REMARK 500  1 ILE A 145       67.41   -176.26                                   
+REMARK 500  1 ASP A 146     -175.68     50.39                                   
+REMARK 500  1 ALA A 147       97.49    -60.04                                   
+REMARK 500  1 ALA A 148     -179.37    -51.30                                   
+REMARK 500  2 SER A   7     -170.06     57.16                                   
+REMARK 500  2 SER A   8       41.73    -90.77                                   
+REMARK 500  2 SER A  12      -76.59    -85.56                                   
+REMARK 500  2 ALA A  13       91.63     61.81                                   
+REMARK 500  2 SER A  43       40.24    -90.53                                   
+REMARK 500  2 ARG A  47     -179.33    -60.07                                   
+REMARK 500  2 ILE A  49      -61.35     63.40                                   
+REMARK 500  2 MET A  53      -17.62    -48.83                                   
+REMARK 500  2 SER A  56      102.41   -161.20                                   
+REMARK 500  2 ALA A  68     -151.88    -68.43                                   
+REMARK 500  2 CYS A  72      154.85    -48.41                                   
+REMARK 500  2 ALA A  73     -157.52   -151.52                                   
+REMARK 500  2 THR A  79       92.13    -61.82                                   
+REMARK 500  2 ALA A 100     -106.31   -124.20                                   
+REMARK 500  2 LEU A 104       54.64   -100.45                                   
+REMARK 500  2 ASP A 105       54.02   -165.38                                   
+REMARK 500  2 ALA A 109      -83.37     55.57                                   
+REMARK 500  2 ARG A 112      149.84   -178.73                                   
+REMARK 500  2 LEU A 121      -94.22    -81.27                                   
+REMARK 500  2 HIS A 123       49.90    -88.08                                   
+REMARK 500  2 ALA A 134       45.22   -103.60                                   
+REMARK 500  2 ARG A 138     -157.95   -173.30                                   
+REMARK 500  2 SER A 140     -138.69   -173.65                                   
+REMARK 500  2 ALA A 148      168.80     59.13                                   
+REMARK 500  2 ASP A 153      106.06     54.28                                   
+REMARK 500  2 ILE A 154       77.69   -116.03                                   
+REMARK 500  3 SER A   7     -168.23     51.56                                   
+REMARK 500  3 MET A   9       96.19     54.17                                   
+REMARK 500  3 GLU A  10       77.81   -109.14                                   
+REMARK 500  3 ASN A  42     -150.07    -99.66                                   
+REMARK 500  3 ARG A  47     -166.68     45.98                                   
+REMARK 500  3 ILE A  49      -63.89     61.74                                   
+REMARK 500  3 MET A  54       18.20     57.09                                   
+REMARK 500  3 GLU A  61      -71.56    -50.71                                   
+REMARK 500  3 ALA A  68     -152.64    -70.66                                   
+REMARK 500  3 GLU A  69       66.94   -114.75                                   
+REMARK 500  3 CYS A  72      151.48    -48.02                                   
+REMARK 500  3 ALA A  73     -159.73   -135.50                                   
+REMARK 500  3 ALA A 102       94.69   -164.90                                   
+REMARK 500  3 ARG A 103      104.96    -52.69                                   
+REMARK 500  3 ASP A 105       42.87   -168.46                                   
+REMARK 500  3 ALA A 109      -63.53     59.00                                   
+REMARK 500  3 LEU A 121      -88.03    -73.33                                   
+REMARK 500  3 HIS A 123       50.59   -108.11                                   
+REMARK 500  3 ASN A 141      -61.01   -137.87                                   
+REMARK 500  3 ALA A 143     -179.37    -56.82                                   
+REMARK 500  3 ARG A 144      175.52    -53.98                                   
+REMARK 500  3 ILE A 145       81.20     51.81                                   
+REMARK 500  3 ALA A 148      114.39     61.04                                   
+REMARK 500  3 ILE A 154       97.78   -166.94                                   
+REMARK 500  4 GLU A   2       75.00     50.75                                   
+REMARK 500  4 SER A   7      175.58     54.46                                   
+REMARK 500  4 MET A   9      -80.11    -68.84                                   
+REMARK 500  4 SER A  12      -47.14    178.83                                   
+REMARK 500  4 ALA A  36      106.33    -53.76                                   
+REMARK 500  4 ASN A  39       32.62    -90.26                                   
+REMARK 500  4 SER A  43       17.53     58.54                                   
+REMARK 500  4 ARG A  47     -166.72     42.56                                   
+REMARK 500  4 ALA A  68     -148.67    -64.82                                   
+REMARK 500  4 GLU A  69       55.98   -117.27                                   
+REMARK 500  4 ALA A  73     -158.20   -137.69                                   
+REMARK 500  4 THR A  77       21.83   -148.26                                   
+REMARK 500  4 ALA A 100      -79.48   -124.42                                   
+REMARK 500  4 ALA A 102      110.73   -160.78                                   
+REMARK 500  4 LEU A 104       43.47   -149.14                                   
+REMARK 500  4 ASP A 105       48.47   -161.01                                   
+REMARK 500  4 ASP A 108       63.20    -69.88                                   
+REMARK 500  4 ALA A 109      -86.66     52.38                                   
+REMARK 500  4 ARG A 112     -158.91   -175.76                                   
+REMARK 500  4 HIS A 123       55.33    -95.11                                   
+REMARK 500  4 ARG A 138      -71.79     62.71                                   
+REMARK 500  4 ASN A 141     -162.19     52.74                                   
+REMARK 500  4 HIS A 142       31.49   -152.60                                   
+REMARK 500  4 ALA A 143       27.34   -156.00                                   
+REMARK 500  4 ILE A 145       71.59     33.21                                   
+REMARK 500  4 ASP A 146       92.58    -47.72                                   
+REMARK 500  5 ALA A   5      -60.12   -152.56                                   
+REMARK 500  5 SER A   7     -141.16   -126.27                                   
+REMARK 500  5 SER A   8     -179.94    -61.43                                   
+REMARK 500  5 GLU A  10      -65.56   -136.48                                   
+REMARK 500  5 ALA A  13       99.37    -62.09                                   
+REMARK 500  5 ASN A  39       34.25    -92.41                                   
+REMARK 500  5 SER A  43     -157.04    -62.58                                   
+REMARK 500  5 TYR A  44       13.72     58.86                                   
+REMARK 500  5 ARG A  47     -165.21   -113.92                                   
+REMARK 500  5 ILE A  49      -59.60     63.96                                   
+REMARK 500  5 MET A  52       41.04    -83.73                                   
+REMARK 500  5 MET A  53       -6.82     64.97                                   
+REMARK 500  5 MET A  54       29.89     43.12                                   
+REMARK 500  5 ALA A  68     -157.32    -72.25                                   
+REMARK 500  5 CYS A  72      163.28    -44.88                                   
+REMARK 500  5 ALA A  73     -155.44   -138.59                                   
+REMARK 500  5 LEU A  78       23.22     48.48                                   
+REMARK 500  5 ALA A 100       70.13   -151.31                                   
+REMARK 500  5 LEU A 104       59.86   -102.37                                   
+REMARK 500  5 ASP A 105       44.72   -170.92                                   
+REMARK 500  5 HIS A 123       50.31    -93.07                                   
+REMARK 500  5 THR A 137       92.79     48.14                                   
+REMARK 500  5 ARG A 138       61.37   -116.22                                   
+REMARK 500  5 ARG A 144       44.21   -163.50                                   
+REMARK 500  5 ALA A 148     -168.78     52.96                                   
+REMARK 500  5 ILE A 154       81.82   -153.07                                   
+REMARK 500  6 GLU A   2       71.16     50.43                                   
+REMARK 500  6 SER A   7      -72.63   -151.78                                   
+REMARK 500  6 ASN A  39       51.56   -102.83                                   
+REMARK 500  6 ARG A  46     -152.44   -105.92                                   
+REMARK 500  6 MET A  53       -4.27     65.30                                   
+REMARK 500  6 LEU A  62      -71.79    -45.74                                   
+REMARK 500  6 LEU A  64      -70.24    -52.26                                   
+REMARK 500  6 GLU A  69       78.90   -107.78                                   
+REMARK 500  6 ASN A  71      -70.58   -113.71                                   
+REMARK 500  6 ALA A  73     -150.33   -133.25                                   
+REMARK 500  6 THR A  77       25.36   -141.71                                   
+REMARK 500  6 THR A  79       97.57    -64.84                                   
+REMARK 500  6 ASP A 108       50.51    -93.73                                   
+REMARK 500  6 ALA A 109      -66.63     59.06                                   
+REMARK 500  6 LEU A 121      -87.34    -62.12                                   
+REMARK 500  6 ARG A 138      -64.51   -159.18                                   
+REMARK 500  6 SER A 140      170.43     55.64                                   
+REMARK 500  6 ASP A 146       62.13    177.96                                   
+REMARK 500  6 GLU A 149      -92.63     45.96                                   
+REMARK 500  6 ASP A 153      102.72     53.77                                   
+REMARK 500  7 ALA A   5     -159.79     60.36                                   
+REMARK 500  7 SER A   7       84.24     48.89                                   
+REMARK 500  7 GLU A  10       91.05     57.40                                   
+REMARK 500  7 SER A  12     -143.29    -71.37                                   
+REMARK 500  7 ASP A  14      -48.57   -166.03                                   
+REMARK 500  7 ARG A  24       56.05   -115.56                                   
+REMARK 500  7 ALA A  36      151.31    -46.41                                   
+REMARK 500  7 ASN A  39       60.40   -115.62                                   
+REMARK 500  7 SER A  43     -157.78    -63.20                                   
+REMARK 500  7 ARG A  47     -155.04   -124.40                                   
+REMARK 500  7 ILE A  49      -53.83     65.97                                   
+REMARK 500  7 ALA A  68     -150.85    -64.50                                   
+REMARK 500  7 GLU A  69       53.37   -119.61                                   
+REMARK 500  7 CYS A  72      178.15    -59.51                                   
+REMARK 500  7 ALA A  73     -152.61   -150.70                                   
+REMARK 500  7 PRO A  75     -177.20    -69.74                                   
+REMARK 500  7 ALA A  76      -58.59     71.42                                   
+REMARK 500  7 ALA A 100      -93.24   -118.98                                   
+REMARK 500  7 ASP A 105       38.77   -174.68                                   
+REMARK 500  7 ASP A 108       61.88    -68.73                                   
+REMARK 500  7 ALA A 109      -74.36     59.88                                   
+REMARK 500  7 TRP A 110      -85.09    -47.88                                   
+REMARK 500  7 LEU A 121      -91.36    -73.77                                   
+REMARK 500  7 HIS A 123       44.20   -102.59                                   
+REMARK 500  7 ASN A 141       55.15   -174.38                                   
+REMARK 500  7 ALA A 143      -63.58   -123.93                                   
+REMARK 500  7 ASP A 146       98.96    -46.51                                   
+REMARK 500  7 GLU A 149      -73.69   -123.57                                   
+REMARK 500  8 GLU A   2      102.16   -161.60                                   
+REMARK 500  8 PRO A   3     -163.68    -79.85                                   
+REMARK 500  8 ALA A   5       50.08   -174.19                                   
+REMARK 500  8 SER A   7      125.71    174.07                                   
+REMARK 500  8 MET A   9       48.50    174.45                                   
+REMARK 500  8 ALA A  13     -118.53   -117.06                                   
+REMARK 500  8 ALA A  36      155.90    -42.78                                   
+REMARK 500  8 ARG A  46     -157.46   -107.74                                   
+REMARK 500  8 MET A  54       23.04     48.56                                   
+REMARK 500  8 LEU A  62      -72.27    -46.52                                   
+REMARK 500  8 ALA A  68     -154.24    -62.19                                   
+REMARK 500  8 ASN A  71      -72.87    -99.06                                   
+REMARK 500  8 CYS A  72      161.80    -42.89                                   
+REMARK 500  8 ALA A  73     -149.27   -148.20                                   
+REMARK 500  8 ALA A 102       89.36   -165.64                                   
+REMARK 500  8 ARG A 103       96.94    -58.50                                   
+REMARK 500  8 LEU A 104       41.87    -87.45                                   
+REMARK 500  8 ASP A 105       41.78   -146.90                                   
+REMARK 500  8 ALA A 109      -78.90     56.98                                   
+REMARK 500  8 LEU A 121      -94.52    -69.15                                   
+REMARK 500  8 ALA A 132      -73.46    -83.95                                   
+REMARK 500  8 ALA A 134       61.19   -107.39                                   
+REMARK 500  8 SER A 140       19.18     52.49                                   
+REMARK 500  8 ARG A 144       74.40     49.53                                   
+REMARK 500  8 ILE A 145      165.11     61.02                                   
+REMARK 500  8 ASP A 146      158.26    -43.60                                   
+REMARK 500  8 ALA A 147      169.41    -47.60                                   
+REMARK 500  8 GLU A 149      -42.47   -155.66                                   
+REMARK 500  8 ASP A 153       86.68     58.60                                   
+REMARK 500  9 MET A   9      -87.01    -97.79                                   
+REMARK 500  9 ALA A  13      107.54    -57.19                                   
+REMARK 500  9 ALA A  36       96.31    -45.63                                   
+REMARK 500  9 ASN A  39       42.73    -88.30                                   
+REMARK 500  9 ARG A  47      168.95    -48.02                                   
+REMARK 500  9 ALA A  68     -143.90    -65.38                                   
+REMARK 500  9 GLU A  69       50.51   -116.36                                   
+REMARK 500  9 ASN A  71      -74.64   -162.19                                   
+REMARK 500  9 ALA A  73     -145.50   -107.00                                   
+REMARK 500  9 ALA A 100      -53.40   -136.00                                   
+REMARK 500  9 ALA A 102      141.17   -177.03                                   
+REMARK 500  9 LEU A 104       46.11   -144.22                                   
+REMARK 500  9 ASP A 105       40.20   -152.32                                   
+REMARK 500  9 ALA A 109      -57.04     64.60                                   
+REMARK 500  9 LEU A 113      177.36    -55.74                                   
+REMARK 500  9 LEU A 121      -93.29    -53.38                                   
+REMARK 500  9 HIS A 123       41.33   -108.51                                   
+REMARK 500  9 HIS A 142       24.77     48.61                                   
+REMARK 500  9 ILE A 145       88.73     55.91                                   
+REMARK 500  9 ASP A 146      107.04    -43.69                                   
+REMARK 500  9 GLU A 149     -169.88    -55.77                                   
+REMARK 500 10 SER A   7       91.26     52.86                                   
+REMARK 500 10 SER A   8       59.71    -91.38                                   
+REMARK 500 10 MET A   9       38.60    -91.52                                   
+REMARK 500 10 SER A  12      100.78    -50.17                                   
+REMARK 500 10 ALA A  40      109.09    -42.38                                   
+REMARK 500 10 ASN A  42     -177.83    -65.33                                   
+REMARK 500 10 ARG A  46       26.11   -160.40                                   
+REMARK 500 10 ARG A  47     -174.63     49.04                                   
+REMARK 500 10 PRO A  48     -167.33    -72.43                                   
+REMARK 500 10 ILE A  49      -65.59     60.20                                   
+REMARK 500 10 MET A  53      -11.73     66.34                                   
+REMARK 500 10 MET A  54       27.55     48.03                                   
+REMARK 500 10 ALA A  68     -157.58    -74.05                                   
+REMARK 500 10 ASN A  71      -78.77   -108.05                                   
+REMARK 500 10 CYS A  72     -175.82    -62.73                                   
+REMARK 500 10 ALA A  73      -83.19   -167.39                                   
+REMARK 500 10 LEU A  78       27.93     47.01                                   
+REMARK 500 10 THR A  79       88.62    -69.66                                   
+REMARK 500 10 ARG A 103       93.62    -55.82                                   
+REMARK 500 10 LEU A 121      -86.77    -54.38                                   
+REMARK 500 10 THR A 137     -157.27   -117.98                                   
+REMARK 500 10 ARG A 138     -153.49   -103.25                                   
+REMARK 500 10 SER A 140      177.19    -58.47                                   
+REMARK 500 10 ASN A 141      108.85     57.29                                   
+REMARK 500 10 HIS A 142      154.73    -46.54                                   
+REMARK 500 10 ALA A 143      -58.81   -165.45                                   
+REMARK 500 10 ASP A 146      173.06    -49.18                                   
+REMARK 500 10 ALA A 148      167.88     58.71                                   
+REMARK 500 10 SER A 152     -176.76    -57.27                                   
+REMARK 500 10 ASP A 153     -169.58   -170.33                                   
+REMARK 500 11 GLU A   2       79.70   -170.70                                   
+REMARK 500 11 ALA A   4       54.89   -100.31                                   
+REMARK 500 11 SER A   8      165.31    179.81                                   
+REMARK 500 11 SER A  12      -42.91   -152.05                                   
+REMARK 500 11 ASN A  39       56.71   -108.90                                   
+REMARK 500 11 ASN A  42      175.59    -50.86                                   
+REMARK 500 11 ARG A  47      176.96    -57.12                                   
+REMARK 500 11 SER A  56      106.13   -160.11                                   
+REMARK 500 11 GLU A  69       78.61   -108.76                                   
+REMARK 500 11 ASN A  71      -61.21   -104.30                                   
+REMARK 500 11 ALA A  73     -148.14   -140.43                                   
+REMARK 500 11 LEU A  97      -72.63    -56.66                                   
+REMARK 500 11 ALA A 102      101.62   -164.33                                   
+REMARK 500 11 VAL A 106     -169.28   -106.37                                   
+REMARK 500 11 ALA A 109      -65.97     61.38                                   
+REMARK 500 11 ARG A 112      157.78    -42.13                                   
+REMARK 500 11 ALA A 134       51.94   -115.88                                   
+REMARK 500 11 THR A 137       73.98     42.76                                   
+REMARK 500 11 HIS A 142      -80.59   -135.98                                   
+REMARK 500 11 ALA A 143       48.93   -165.79                                   
+REMARK 500 11 ARG A 144      173.01     56.51                                   
+REMARK 500 11 ASP A 146      104.29     56.60                                   
+REMARK 500 12 ALA A   4     -168.87    176.54                                   
+REMARK 500 12 ALA A   5       45.01   -141.36                                   
+REMARK 500 12 SER A   7      -96.48    -53.09                                   
+REMARK 500 12 ALA A  13       24.41     49.85                                   
+REMARK 500 12 ARG A  22       32.62    -92.70                                   
+REMARK 500 12 ASN A  39       48.95    -95.53                                   
+REMARK 500 12 SER A  43     -157.11    -60.80                                   
+REMARK 500 12 ARG A  46     -167.45   -116.80                                   
+REMARK 500 12 ARG A  47     -161.45   -124.30                                   
+REMARK 500 12 MET A  54       28.26     49.68                                   
+REMARK 500 12 SER A  56       85.72   -156.10                                   
+REMARK 500 12 ALA A  68     -170.19    -69.67                                   
+REMARK 500 12 GLU A  69       79.37   -109.17                                   
+REMARK 500 12 ALA A  73     -155.22   -131.43                                   
+REMARK 500 12 ALA A 102      102.47   -163.57                                   
+REMARK 500 12 ASP A 108       44.04    -79.47                                   
+REMARK 500 12 ALA A 109      -86.52     38.71                                   
+REMARK 500 12 ARG A 112      -57.48    164.85                                   
+REMARK 500 12 LEU A 121      -89.14    -47.30                                   
+REMARK 500 12 HIS A 123       43.99   -101.19                                   
+REMARK 500 12 SER A 140      -88.49    -64.07                                   
+REMARK 500 12 ASN A 141       78.48   -107.85                                   
+REMARK 500 12 ASP A 146      172.82    -51.48                                   
+REMARK 500 12 PRO A 151     -165.72    -74.30                                   
+REMARK 500 13 ALA A   4       82.12     48.59                                   
+REMARK 500 13 ALA A   5       87.96     59.68                                   
+REMARK 500 13 GLU A  10       77.31   -116.08                                   
+REMARK 500 13 SER A  12      161.13    -47.41                                   
+REMARK 500 13 ALA A  13      -39.83   -173.53                                   
+REMARK 500 13 ARG A  24       69.29   -113.24                                   
+REMARK 500 13 ASN A  42     -156.94    -75.64                                   
+REMARK 500 13 ARG A  46     -163.18   -127.68                                   
+REMARK 500 13 MET A  53       91.41    -62.26                                   
+REMARK 500 13 ALA A  68     -159.94    -60.60                                   
+REMARK 500 13 ASN A  71      -62.27   -167.30                                   
+REMARK 500 13 ALA A  73     -144.07   -136.94                                   
+REMARK 500 13 LEU A  78       53.29    -67.77                                   
+REMARK 500 13 ALA A 100       56.68   -140.72                                   
+REMARK 500 13 LEU A 121      -87.39    -67.19                                   
+REMARK 500 13 HIS A 123       45.96    -98.29                                   
+REMARK 500 13 ALA A 134       49.71    -84.88                                   
+REMARK 500 13 SER A 140      163.62     59.27                                   
+REMARK 500 13 ALA A 143      -53.18   -154.38                                   
+REMARK 500 13 ARG A 144      114.75     62.07                                   
+REMARK 500 13 ASP A 146       90.45    -55.30                                   
+REMARK 500 13 GLU A 149      -50.00   -174.45                                   
+REMARK 500 14 GLU A   2       71.77   -151.84                                   
+REMARK 500 14 ALA A   4       78.19    -60.97                                   
+REMARK 500 14 GLU A  10       95.32   -179.52                                   
+REMARK 500 14 SER A  12      -64.16   -140.86                                   
+REMARK 500 14 ALA A  13       25.00     45.29                                   
+REMARK 500 14 ALA A  40      101.36    -39.75                                   
+REMARK 500 14 ARG A  47     -175.39    -54.86                                   
+REMARK 500 14 ILE A  49      -58.78     63.27                                   
+REMARK 500 14 SER A  56      117.29   -160.93                                   
+REMARK 500 14 ALA A  68     -154.40    -73.91                                   
+REMARK 500 14 ASN A  71      -64.36   -108.50                                   
+REMARK 500 14 ALA A  73     -150.39   -132.82                                   
+REMARK 500 14 ALA A  76      -80.83    -47.86                                   
+REMARK 500 14 ALA A 109      -73.19     55.53                                   
+REMARK 500 14 HIS A 142      178.48    177.19                                   
+REMARK 500 14 ALA A 143       55.49   -161.10                                   
+REMARK 500 14 ARG A 144      157.14    -47.46                                   
+REMARK 500 14 ASP A 146       76.87    172.15                                   
+REMARK 500 14 ASP A 153       97.63    -54.03                                   
+REMARK 500 15 ALA A   4      116.61   -175.12                                   
+REMARK 500 15 ALA A   5      -56.58   -122.38                                   
+REMARK 500 15 MET A   9      126.25   -175.73                                   
+REMARK 500 15 GLU A  10      137.63     62.42                                   
+REMARK 500 15 ALA A  13       54.16   -154.57                                   
+REMARK 500 15 ASN A  39       61.63   -112.24                                   
+REMARK 500 15 MET A  52       30.10    -91.11                                   
+REMARK 500 15 MET A  53      -13.54     75.61                                   
+REMARK 500 15 MET A  54       28.18     47.11                                   
+REMARK 500 15 ALA A  68     -162.22    -64.76                                   
+REMARK 500 15 GLU A  69       61.64   -116.86                                   
+REMARK 500 15 ASN A  71      -61.08   -108.77                                   
+REMARK 500 15 CYS A  72      166.62    -45.25                                   
+REMARK 500 15 ALA A  73     -148.62   -160.40                                   
+REMARK 500 15 ALA A  76      -81.30    -64.02                                   
+REMARK 500 15 THR A  77       40.73   -104.56                                   
+REMARK 500 15 LEU A  78       40.56     31.95                                   
+REMARK 500 15 LEU A  97      -70.01    -56.31                                   
+REMARK 500 15 ALA A 109      -89.57     59.69                                   
+REMARK 500 15 TRP A 110       72.23   -112.20                                   
+REMARK 500 15 ARG A 112     -154.87    171.81                                   
+REMARK 500 15 HIS A 123       54.48   -109.37                                   
+REMARK 500 15 THR A 137       27.38     44.10                                   
+REMARK 500 15 ASP A 146      115.00     65.05                                   
+REMARK 500 15 SER A 152      113.15     57.85                                   
+REMARK 500 15 ASP A 153     -178.24     56.87                                   
+REMARK 500 16 ALA A   5       55.98    -91.08                                   
+REMARK 500 16 SER A   7      164.77     58.21                                   
+REMARK 500 16 SER A   8       71.69   -166.34                                   
+REMARK 500 16 MET A   9      -68.78   -124.13                                   
+REMARK 500 16 ARG A  24       64.11   -107.15                                   
+REMARK 500 16 MET A  53       96.40    -55.59                                   
+REMARK 500 16 SER A  56       99.56   -171.54                                   
+REMARK 500 16 ALA A  68     -155.02    -79.30                                   
+REMARK 500 16 CYS A  72      177.55    -52.11                                   
+REMARK 500 16 ALA A  73     -143.35   -162.66                                   
+REMARK 500 16 THR A  79       89.29    -59.03                                   
+REMARK 500 16 ALA A 100      -66.73   -136.39                                   
+REMARK 500 16 ALA A 102      119.37   -177.29                                   
+REMARK 500 16 ASP A 108       45.08    -89.55                                   
+REMARK 500 16 ALA A 109      -77.92     62.11                                   
+REMARK 500 16 ARG A 112      133.82    178.14                                   
+REMARK 500 16 LEU A 121      -81.47    -72.57                                   
+REMARK 500 16 HIS A 123       52.94   -108.49                                   
+REMARK 500 16 ARG A 138       57.59    178.07                                   
+REMARK 500 16 SER A 140       40.36    -98.81                                   
+REMARK 500 16 HIS A 142     -171.28    -55.28                                   
+REMARK 500 16 ASP A 146      172.94     65.09                                   
+REMARK 500 16 ALA A 148      120.45    -39.58                                   
+REMARK 500 16 SER A 152      118.53   -162.32                                   
+REMARK 500 16 ASP A 153       96.55     55.02                                   
+REMARK 500 17 SER A   8     -177.37     58.60                                   
+REMARK 500 17 MET A   9     -157.07    -64.27                                   
+REMARK 500 17 ALA A  13     -153.88   -169.64                                   
+REMARK 500 17 ASN A  39       58.05   -115.57                                   
+REMARK 500 17 ASN A  42     -174.95    -60.92                                   
+REMARK 500 17 ARG A  47     -154.47    -87.70                                   
+REMARK 500 17 ILE A  49      -62.86     62.62                                   
+REMARK 500 17 MET A  52       36.66    -93.03                                   
+REMARK 500 17 MET A  53       -6.95     63.44                                   
+REMARK 500 17 MET A  54       28.81     45.94                                   
+REMARK 500 17 LEU A  62      -70.99    -49.55                                   
+REMARK 500 17 ALA A  68     -151.74    -79.29                                   
+REMARK 500 17 ASN A  71      -73.00   -108.36                                   
+REMARK 500 17 ALA A  73     -155.45   -153.86                                   
+REMARK 500 17 THR A  77       16.07   -147.43                                   
+REMARK 500 17 ALA A 100      -74.60   -136.90                                   
+REMARK 500 17 ALA A 102      111.18   -162.43                                   
+REMARK 500 17 ASP A 105       39.29    -98.68                                   
+REMARK 500 17 ALA A 109      -88.36     54.80                                   
+REMARK 500 17 ARG A 112     -160.13   -169.75                                   
+REMARK 500 17 LEU A 121      -81.80    -78.10                                   
+REMARK 500 17 ASN A 141     -162.47     60.64                                   
+REMARK 500 17 ALA A 143     -146.31     53.19                                   
+REMARK 500 17 ASP A 146       73.17   -177.23                                   
+REMARK 500 18 ALA A   5     -169.79    -72.46                                   
+REMARK 500 18 SER A   7       77.45     50.94                                   
+REMARK 500 18 SER A   8     -140.74   -137.11                                   
+REMARK 500 18 PRO A  11     -176.36    -69.61                                   
+REMARK 500 18 ARG A  24       67.54   -109.49                                   
+REMARK 500 18 ALA A  36      154.72    -44.68                                   
+REMARK 500 18 ASN A  42     -157.97    -88.96                                   
+REMARK 500 18 ARG A  46     -159.79   -108.05                                   
+REMARK 500 18 MET A  53       -5.61     68.79                                   
+REMARK 500 18 MET A  54       89.32     39.94                                   
+REMARK 500 18 SER A  56       79.91   -103.67                                   
+REMARK 500 18 ALA A  68     -149.78    -70.10                                   
+REMARK 500 18 ALA A  73     -140.18   -159.22                                   
+REMARK 500 18 LEU A  78       27.68     45.61                                   
+REMARK 500 18 THR A  79       88.72    -65.32                                   
+REMARK 500 18 ALA A 100      -87.12   -127.99                                   
+REMARK 500 18 LEU A 104       46.46   -143.08                                   
+REMARK 500 18 ASP A 105       52.70   -169.44                                   
+REMARK 500 18 ALA A 109      -66.34     56.75                                   
+REMARK 500 18 LEU A 121      -82.02    -53.07                                   
+REMARK 500 18 ALA A 134      -65.72   -129.60                                   
+REMARK 500 18 ARG A 138      -70.81    -98.21                                   
+REMARK 500 18 ARG A 144       88.09     64.47                                   
+REMARK 500 18 ILE A 145       79.56     40.43                                   
+REMARK 500 18 ASP A 146      121.82    177.05                                   
+REMARK 500 18 ALA A 148      177.85     56.24                                   
+REMARK 500 18 PRO A 151      -87.46    -80.78                                   
+REMARK 500 18 ASP A 153     -174.79     57.12                                   
+REMARK 500 19 ALA A   5       56.42   -110.87                                   
+REMARK 500 19 MET A   9      137.37     63.15                                   
+REMARK 500 19 SER A  12     -170.81    -59.23                                   
+REMARK 500 19 ASN A  39       55.92    -95.40                                   
+REMARK 500 19 SER A  43     -157.29     44.46                                   
+REMARK 500 19 ARG A  47     -163.48   -119.78                                   
+REMARK 500 19 LEU A  64      -70.50    -53.37                                   
+REMARK 500 19 ALA A  68     -153.88    -72.90                                   
+REMARK 500 19 ALA A  73     -157.73   -165.04                                   
+REMARK 500 19 ALA A  76      -76.53    -60.98                                   
+REMARK 500 19 THR A  79       87.68    -57.84                                   
+REMARK 500 19 LEU A  91      -53.62   -122.90                                   
+REMARK 500 19 ALA A 102      114.17   -160.25                                   
+REMARK 500 19 LEU A 104       10.47   -145.52                                   
+REMARK 500 19 ALA A 109      -66.07     64.20                                   
+REMARK 500 19 TRP A 110       40.75   -154.85                                   
+REMARK 500 19 ARG A 112     -156.52   -163.78                                   
+REMARK 500 19 LEU A 121      -86.43    -77.67                                   
+REMARK 500 19 HIS A 123       46.73    -95.05                                   
+REMARK 500 19 SER A 140     -150.13     43.07                                   
+REMARK 500 19 ALA A 143     -143.07   -172.93                                   
+REMARK 500 19 ARG A 144       81.35     53.51                                   
+REMARK 500 19 ILE A 145       97.31     56.19                                   
+REMARK 500 19 ASP A 146       65.58    177.73                                   
+REMARK 500 19 PRO A 151     -162.69    -72.47                                   
+REMARK 500 19 SER A 152     -170.44     60.82                                   
+REMARK 500 20 GLU A   2       71.25   -108.55                                   
+REMARK 500 20 ALA A   5      -93.56     53.39                                   
+REMARK 500 20 MET A   9        7.97    -67.24                                   
+REMARK 500 20 GLU A  10       98.75     27.22                                   
+REMARK 500 20 SER A  12      120.87     18.10                                   
+REMARK 500 20 ASP A  14      -43.32    -26.61                                   
+REMARK 500 20 ASN A  39       51.77   -112.70                                   
+REMARK 500 20 ARG A  46     -167.51   -113.52                                   
+REMARK 500 20 MET A  54       16.97     57.67                                   
+REMARK 500 20 ALA A  68     -161.79    -66.41                                   
+REMARK 500 20 GLU A  69       62.13   -115.88                                   
+REMARK 500 20 ALA A  73     -146.43   -132.98                                   
+REMARK 500 20 THR A  79       76.90    -69.12                                   
+REMARK 500 20 ASP A 105       48.19    -98.32                                   
+REMARK 500 20 ASP A 108       48.15    -79.31                                   
+REMARK 500 20 ALA A 109      -63.20     63.49                                   
+REMARK 500 20 LEU A 121      -81.07    -60.93                                   
+REMARK 500 20 HIS A 123       53.12   -107.94                                   
+REMARK 500 20 THR A 137      -61.50   -164.00                                   
+REMARK 500 20 ARG A 138      -58.20     73.86                                   
+REMARK 500 20 SER A 140       46.48    125.96                                   
+REMARK 500 20 ASN A 141      -89.87   -113.35                                   
+REMARK 500 20 ALA A 143     -151.50    157.09                                   
+REMARK 500 20 ALA A 147      165.49     65.93                                   
+REMARK 500 20 ALA A 148       78.79    -67.26                                   
+REMARK 500 20 GLU A 149      -31.59   -138.06                                   
+REMARK 500 20 SER A 152        1.93    151.90                                   
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: PLANAR GROUPS                                              
+REMARK 500                                                                      
+REMARK 500 PLANAR GROUPS IN THE FOLLOWING RESIDUES HAVE A TOTAL                 
+REMARK 500 RMS DISTANCE OF ALL ATOMS FROM THE BEST-FIT PLANE                    
+REMARK 500 BY MORE THAN AN EXPECTED VALUE OF 6*RMSD, WITH AN                    
+REMARK 500 RMSD 0.02 ANGSTROMS, OR AT LEAST ONE ATOM HAS                        
+REMARK 500 AN RMSD GREATER THAN THIS VALUE                                      
+REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI        RMS     TYPE                                    
+REMARK 500  1 ARG A  22         0.28    SIDE_CHAIN                              
+REMARK 500  1 ARG A  24         0.08    SIDE_CHAIN                              
+REMARK 500  1 ARG A  29         0.16    SIDE_CHAIN                              
+REMARK 500  1 ARG A  46         0.30    SIDE_CHAIN                              
+REMARK 500  1 ARG A  47         0.31    SIDE_CHAIN                              
+REMARK 500  1 ARG A  58         0.15    SIDE_CHAIN                              
+REMARK 500  1 ARG A  80         0.20    SIDE_CHAIN                              
+REMARK 500  1 ARG A  87         0.29    SIDE_CHAIN                              
+REMARK 500  1 ARG A  99         0.26    SIDE_CHAIN                              
+REMARK 500  1 ARG A 103         0.29    SIDE_CHAIN                              
+REMARK 500  1 ARG A 124         0.14    SIDE_CHAIN                              
+REMARK 500  1 ARG A 128         0.30    SIDE_CHAIN                              
+REMARK 500  1 ARG A 131         0.25    SIDE_CHAIN                              
+REMARK 500  1 ARG A 138         0.15    SIDE_CHAIN                              
+REMARK 500  1 ARG A 144         0.20    SIDE_CHAIN                              
+REMARK 500  2 ARG A  24         0.32    SIDE_CHAIN                              
+REMARK 500  2 ARG A  29         0.12    SIDE_CHAIN                              
+REMARK 500  2 ARG A  46         0.28    SIDE_CHAIN                              
+REMARK 500  2 ARG A  47         0.30    SIDE_CHAIN                              
+REMARK 500  2 ARG A  58         0.31    SIDE_CHAIN                              
+REMARK 500  2 ARG A  80         0.31    SIDE_CHAIN                              
+REMARK 500  2 ARG A  87         0.30    SIDE_CHAIN                              
+REMARK 500  2 ARG A  99         0.32    SIDE_CHAIN                              
+REMARK 500  2 ARG A 103         0.27    SIDE_CHAIN                              
+REMARK 500  2 ARG A 107         0.30    SIDE_CHAIN                              
+REMARK 500  2 ARG A 112         0.21    SIDE_CHAIN                              
+REMARK 500  2 ARG A 124         0.21    SIDE_CHAIN                              
+REMARK 500  2 ARG A 128         0.31    SIDE_CHAIN                              
+REMARK 500  2 ARG A 131         0.20    SIDE_CHAIN                              
+REMARK 500  2 ARG A 144         0.21    SIDE_CHAIN                              
+REMARK 500  3 ARG A  22         0.31    SIDE_CHAIN                              
+REMARK 500  3 ARG A  24         0.21    SIDE_CHAIN                              
+REMARK 500  3 ARG A  29         0.31    SIDE_CHAIN                              
+REMARK 500  3 ARG A  46         0.32    SIDE_CHAIN                              
+REMARK 500  3 ARG A  47         0.22    SIDE_CHAIN                              
+REMARK 500  3 ARG A  58         0.13    SIDE_CHAIN                              
+REMARK 500  3 ARG A  80         0.17    SIDE_CHAIN                              
+REMARK 500  3 ARG A  87         0.31    SIDE_CHAIN                              
+REMARK 500  3 ARG A  99         0.31    SIDE_CHAIN                              
+REMARK 500  3 ARG A 103         0.29    SIDE_CHAIN                              
+REMARK 500  3 ARG A 107         0.22    SIDE_CHAIN                              
+REMARK 500  3 ARG A 112         0.22    SIDE_CHAIN                              
+REMARK 500  3 ARG A 124         0.32    SIDE_CHAIN                              
+REMARK 500  3 ARG A 128         0.20    SIDE_CHAIN                              
+REMARK 500  3 ARG A 131         0.12    SIDE_CHAIN                              
+REMARK 500  3 ARG A 138         0.31    SIDE_CHAIN                              
+REMARK 500  3 ARG A 144         0.25    SIDE_CHAIN                              
+REMARK 500  4 ARG A  22         0.29    SIDE_CHAIN                              
+REMARK 500  4 ARG A  24         0.28    SIDE_CHAIN                              
+REMARK 500  4 ARG A  29         0.31    SIDE_CHAIN                              
+REMARK 500  4 ARG A  46         0.30    SIDE_CHAIN                              
+REMARK 500  4 ARG A  47         0.22    SIDE_CHAIN                              
+REMARK 500  4 ARG A  58         0.27    SIDE_CHAIN                              
+REMARK 500  4 ARG A  80         0.31    SIDE_CHAIN                              
+REMARK 500  4 ARG A  87         0.31    SIDE_CHAIN                              
+REMARK 500  4 ARG A  99         0.27    SIDE_CHAIN                              
+REMARK 500  4 ARG A 103         0.30    SIDE_CHAIN                              
+REMARK 500  4 ARG A 107         0.20    SIDE_CHAIN                              
+REMARK 500  4 ARG A 112         0.22    SIDE_CHAIN                              
+REMARK 500  4 ARG A 124         0.21    SIDE_CHAIN                              
+REMARK 500  4 ARG A 128         0.30    SIDE_CHAIN                              
+REMARK 500  4 ARG A 131         0.25    SIDE_CHAIN                              
+REMARK 500  4 ARG A 138         0.29    SIDE_CHAIN                              
+REMARK 500  4 ARG A 144         0.32    SIDE_CHAIN                              
+REMARK 500  5 ARG A  22         0.32    SIDE_CHAIN                              
+REMARK 500  5 ARG A  24         0.32    SIDE_CHAIN                              
+REMARK 500  5 ARG A  29         0.32    SIDE_CHAIN                              
+REMARK 500  5 ARG A  46         0.28    SIDE_CHAIN                              
+REMARK 500  5 ARG A  47         0.29    SIDE_CHAIN                              
+REMARK 500  5 ARG A  58         0.13    SIDE_CHAIN                              
+REMARK 500  5 ARG A  80         0.31    SIDE_CHAIN                              
+REMARK 500  5 ARG A  87         0.28    SIDE_CHAIN                              
+REMARK 500  5 ARG A  99         0.26    SIDE_CHAIN                              
+REMARK 500  5 ARG A 103         0.31    SIDE_CHAIN                              
+REMARK 500  5 ARG A 107         0.27    SIDE_CHAIN                              
+REMARK 500  5 ARG A 112         0.32    SIDE_CHAIN                              
+REMARK 500  5 ARG A 124         0.21    SIDE_CHAIN                              
+REMARK 500  5 ARG A 128         0.26    SIDE_CHAIN                              
+REMARK 500  5 ARG A 131         0.32    SIDE_CHAIN                              
+REMARK 500  5 ARG A 138         0.31    SIDE_CHAIN                              
+REMARK 500  5 ARG A 144         0.32    SIDE_CHAIN                              
+REMARK 500  6 ARG A  22         0.20    SIDE_CHAIN                              
+REMARK 500  6 ARG A  24         0.13    SIDE_CHAIN                              
+REMARK 500  6 ARG A  29         0.31    SIDE_CHAIN                              
+REMARK 500  6 ARG A  46         0.27    SIDE_CHAIN                              
+REMARK 500  6 ARG A  47         0.31    SIDE_CHAIN                              
+REMARK 500  6 ARG A  58         0.31    SIDE_CHAIN                              
+REMARK 500  6 ARG A  80         0.27    SIDE_CHAIN                              
+REMARK 500  6 ARG A  87         0.28    SIDE_CHAIN                              
+REMARK 500  6 ARG A  99         0.23    SIDE_CHAIN                              
+REMARK 500  6 ARG A 103         0.28    SIDE_CHAIN                              
+REMARK 500  6 ARG A 107         0.32    SIDE_CHAIN                              
+REMARK 500  6 ARG A 112         0.31    SIDE_CHAIN                              
+REMARK 500  6 ARG A 124         0.26    SIDE_CHAIN                              
+REMARK 500  6 ARG A 128         0.31    SIDE_CHAIN                              
+REMARK 500  6 ARG A 131         0.21    SIDE_CHAIN                              
+REMARK 500  6 ARG A 138         0.16    SIDE_CHAIN                              
+REMARK 500  6 ARG A 144         0.29    SIDE_CHAIN                              
+REMARK 500  7 ARG A  22         0.16    SIDE_CHAIN                              
+REMARK 500  7 ARG A  24         0.15    SIDE_CHAIN                              
+REMARK 500  7 ARG A  29         0.29    SIDE_CHAIN                              
+REMARK 500  7 ARG A  46         0.22    SIDE_CHAIN                              
+REMARK 500  7 ARG A  47         0.25    SIDE_CHAIN                              
+REMARK 500  7 ARG A  58         0.17    SIDE_CHAIN                              
+REMARK 500  7 ARG A  80         0.26    SIDE_CHAIN                              
+REMARK 500  7 ARG A  87         0.13    SIDE_CHAIN                              
+REMARK 500  7 ARG A  99         0.28    SIDE_CHAIN                              
+REMARK 500  7 ARG A 103         0.24    SIDE_CHAIN                              
+REMARK 500  7 ARG A 107         0.30    SIDE_CHAIN                              
+REMARK 500  7 ARG A 112         0.29    SIDE_CHAIN                              
+REMARK 500  7 ARG A 124         0.30    SIDE_CHAIN                              
+REMARK 500  7 ARG A 131         0.15    SIDE_CHAIN                              
+REMARK 500  7 ARG A 138         0.30    SIDE_CHAIN                              
+REMARK 500  7 ARG A 144         0.32    SIDE_CHAIN                              
+REMARK 500  8 ARG A  22         0.26    SIDE_CHAIN                              
+REMARK 500  8 ARG A  24         0.29    SIDE_CHAIN                              
+REMARK 500  8 ARG A  29         0.30    SIDE_CHAIN                              
+REMARK 500  8 ARG A  46         0.30    SIDE_CHAIN                              
+REMARK 500  8 ARG A  47         0.29    SIDE_CHAIN                              
+REMARK 500  8 ARG A  58         0.15    SIDE_CHAIN                              
+REMARK 500  8 ARG A  80         0.32    SIDE_CHAIN                              
+REMARK 500  8 ARG A  87         0.32    SIDE_CHAIN                              
+REMARK 500  8 ARG A  99         0.31    SIDE_CHAIN                              
+REMARK 500  8 ARG A 103         0.32    SIDE_CHAIN                              
+REMARK 500  8 ARG A 107         0.28    SIDE_CHAIN                              
+REMARK 500  8 ARG A 112         0.19    SIDE_CHAIN                              
+REMARK 500  8 ARG A 124         0.24    SIDE_CHAIN                              
+REMARK 500  8 ARG A 128         0.30    SIDE_CHAIN                              
+REMARK 500  8 ARG A 131         0.13    SIDE_CHAIN                              
+REMARK 500  8 ARG A 144         0.28    SIDE_CHAIN                              
+REMARK 500  9 ARG A  22         0.22    SIDE_CHAIN                              
+REMARK 500  9 ARG A  24         0.31    SIDE_CHAIN                              
+REMARK 500  9 ARG A  29         0.27    SIDE_CHAIN                              
+REMARK 500  9 ARG A  46         0.22    SIDE_CHAIN                              
+REMARK 500  9 ARG A  47         0.13    SIDE_CHAIN                              
+REMARK 500  9 ARG A  58         0.13    SIDE_CHAIN                              
+REMARK 500  9 ARG A  80         0.32    SIDE_CHAIN                              
+REMARK 500  9 ARG A  87         0.30    SIDE_CHAIN                              
+REMARK 500  9 ARG A  99         0.28    SIDE_CHAIN                              
+REMARK 500  9 ARG A 103         0.18    SIDE_CHAIN                              
+REMARK 500  9 ARG A 107         0.23    SIDE_CHAIN                              
+REMARK 500  9 ARG A 112         0.32    SIDE_CHAIN                              
+REMARK 500  9 ARG A 124         0.28    SIDE_CHAIN                              
+REMARK 500  9 ARG A 128         0.27    SIDE_CHAIN                              
+REMARK 500  9 ARG A 131         0.16    SIDE_CHAIN                              
+REMARK 500  9 ARG A 138         0.31    SIDE_CHAIN                              
+REMARK 500  9 ARG A 144         0.23    SIDE_CHAIN                              
+REMARK 500 10 ARG A  22         0.32    SIDE_CHAIN                              
+REMARK 500 10 ARG A  24         0.20    SIDE_CHAIN                              
+REMARK 500 10 ARG A  29         0.29    SIDE_CHAIN                              
+REMARK 500 10 ARG A  47         0.31    SIDE_CHAIN                              
+REMARK 500 10 ARG A  58         0.29    SIDE_CHAIN                              
+REMARK 500 10 ARG A  80         0.24    SIDE_CHAIN                              
+REMARK 500 10 ARG A  87         0.14    SIDE_CHAIN                              
+REMARK 500 10 ARG A  99         0.30    SIDE_CHAIN                              
+REMARK 500 10 ARG A 103         0.32    SIDE_CHAIN                              
+REMARK 500 10 ARG A 107         0.24    SIDE_CHAIN                              
+REMARK 500 10 ARG A 112         0.27    SIDE_CHAIN                              
+REMARK 500 10 ARG A 124         0.27    SIDE_CHAIN                              
+REMARK 500 10 ARG A 128         0.32    SIDE_CHAIN                              
+REMARK 500 10 ARG A 131         0.24    SIDE_CHAIN                              
+REMARK 500 10 ARG A 138         0.31    SIDE_CHAIN                              
+REMARK 500 10 ARG A 144         0.19    SIDE_CHAIN                              
+REMARK 500 11 ARG A  22         0.23    SIDE_CHAIN                              
+REMARK 500 11 ARG A  29         0.32    SIDE_CHAIN                              
+REMARK 500 11 ARG A  46         0.18    SIDE_CHAIN                              
+REMARK 500 11 ARG A  47         0.27    SIDE_CHAIN                              
+REMARK 500 11 ARG A  58         0.29    SIDE_CHAIN                              
+REMARK 500 11 ARG A  80         0.32    SIDE_CHAIN                              
+REMARK 500 11 ARG A  87         0.30    SIDE_CHAIN                              
+REMARK 500 11 ARG A  99         0.19    SIDE_CHAIN                              
+REMARK 500 11 ARG A 103         0.29    SIDE_CHAIN                              
+REMARK 500 11 ARG A 107         0.20    SIDE_CHAIN                              
+REMARK 500 11 ARG A 112         0.23    SIDE_CHAIN                              
+REMARK 500 11 ARG A 124         0.31    SIDE_CHAIN                              
+REMARK 500 11 ARG A 128         0.32    SIDE_CHAIN                              
+REMARK 500 11 ARG A 131         0.11    SIDE_CHAIN                              
+REMARK 500 11 ARG A 138         0.24    SIDE_CHAIN                              
+REMARK 500 11 ARG A 144         0.29    SIDE_CHAIN                              
+REMARK 500 12 ARG A  22         0.25    SIDE_CHAIN                              
+REMARK 500 12 ARG A  24         0.11    SIDE_CHAIN                              
+REMARK 500 12 ARG A  29         0.31    SIDE_CHAIN                              
+REMARK 500 12 ARG A  46         0.32    SIDE_CHAIN                              
+REMARK 500 12 ARG A  47         0.28    SIDE_CHAIN                              
+REMARK 500 12 ARG A  58         0.31    SIDE_CHAIN                              
+REMARK 500 12 ARG A  80         0.20    SIDE_CHAIN                              
+REMARK 500 12 ARG A  87         0.26    SIDE_CHAIN                              
+REMARK 500 12 ARG A 103         0.20    SIDE_CHAIN                              
+REMARK 500 12 ARG A 107         0.20    SIDE_CHAIN                              
+REMARK 500 12 ARG A 112         0.32    SIDE_CHAIN                              
+REMARK 500 12 ARG A 124         0.17    SIDE_CHAIN                              
+REMARK 500 12 ARG A 128         0.32    SIDE_CHAIN                              
+REMARK 500 12 ARG A 131         0.15    SIDE_CHAIN                              
+REMARK 500 12 ARG A 138         0.18    SIDE_CHAIN                              
+REMARK 500 12 ARG A 144         0.23    SIDE_CHAIN                              
+REMARK 500 13 ARG A  22         0.29    SIDE_CHAIN                              
+REMARK 500 13 ARG A  24         0.32    SIDE_CHAIN                              
+REMARK 500 13 ARG A  29         0.18    SIDE_CHAIN                              
+REMARK 500 13 ARG A  46         0.29    SIDE_CHAIN                              
+REMARK 500 13 ARG A  47         0.26    SIDE_CHAIN                              
+REMARK 500 13 ARG A  58         0.23    SIDE_CHAIN                              
+REMARK 500 13 ARG A  80         0.14    SIDE_CHAIN                              
+REMARK 500 13 ARG A  87         0.23    SIDE_CHAIN                              
+REMARK 500 13 ARG A 103         0.18    SIDE_CHAIN                              
+REMARK 500 13 ARG A 107         0.22    SIDE_CHAIN                              
+REMARK 500 13 ARG A 112         0.31    SIDE_CHAIN                              
+REMARK 500 13 ARG A 124         0.28    SIDE_CHAIN                              
+REMARK 500 13 ARG A 128         0.32    SIDE_CHAIN                              
+REMARK 500 13 ARG A 131         0.21    SIDE_CHAIN                              
+REMARK 500 13 ARG A 138         0.22    SIDE_CHAIN                              
+REMARK 500 13 ARG A 144         0.32    SIDE_CHAIN                              
+REMARK 500 14 ARG A  22         0.22    SIDE_CHAIN                              
+REMARK 500 14 ARG A  24         0.31    SIDE_CHAIN                              
+REMARK 500 14 ARG A  29         0.20    SIDE_CHAIN                              
+REMARK 500 14 ARG A  46         0.17    SIDE_CHAIN                              
+REMARK 500 14 ARG A  47         0.20    SIDE_CHAIN                              
+REMARK 500 14 ARG A  58         0.20    SIDE_CHAIN                              
+REMARK 500 14 ARG A  80         0.31    SIDE_CHAIN                              
+REMARK 500 14 ARG A  87         0.22    SIDE_CHAIN                              
+REMARK 500 14 ARG A  99         0.30    SIDE_CHAIN                              
+REMARK 500 14 ARG A 103         0.26    SIDE_CHAIN                              
+REMARK 500 14 ARG A 107         0.27    SIDE_CHAIN                              
+REMARK 500 14 ARG A 112         0.09    SIDE_CHAIN                              
+REMARK 500 14 ARG A 124         0.32    SIDE_CHAIN                              
+REMARK 500 14 ARG A 128         0.32    SIDE_CHAIN                              
+REMARK 500 14 ARG A 131         0.25    SIDE_CHAIN                              
+REMARK 500 14 ARG A 138         0.28    SIDE_CHAIN                              
+REMARK 500 14 ARG A 144         0.26    SIDE_CHAIN                              
+REMARK 500 15 ARG A  22         0.31    SIDE_CHAIN                              
+REMARK 500 15 ARG A  24         0.17    SIDE_CHAIN                              
+REMARK 500 15 ARG A  29         0.28    SIDE_CHAIN                              
+REMARK 500 15 ARG A  58         0.31    SIDE_CHAIN                              
+REMARK 500 15 ARG A  80         0.27    SIDE_CHAIN                              
+REMARK 500 15 ARG A  87         0.19    SIDE_CHAIN                              
+REMARK 500 15 ARG A 103         0.29    SIDE_CHAIN                              
+REMARK 500 15 ARG A 107         0.28    SIDE_CHAIN                              
+REMARK 500 15 ARG A 112         0.29    SIDE_CHAIN                              
+REMARK 500 15 ARG A 124         0.31    SIDE_CHAIN                              
+REMARK 500 15 ARG A 128         0.31    SIDE_CHAIN                              
+REMARK 500 15 ARG A 131         0.22    SIDE_CHAIN                              
+REMARK 500 15 ARG A 138         0.22    SIDE_CHAIN                              
+REMARK 500 15 ARG A 144         0.32    SIDE_CHAIN                              
+REMARK 500 16 ARG A  22         0.31    SIDE_CHAIN                              
+REMARK 500 16 ARG A  24         0.11    SIDE_CHAIN                              
+REMARK 500 16 ARG A  29         0.30    SIDE_CHAIN                              
+REMARK 500 16 ARG A  46         0.30    SIDE_CHAIN                              
+REMARK 500 16 ARG A  47         0.11    SIDE_CHAIN                              
+REMARK 500 16 ARG A  58         0.27    SIDE_CHAIN                              
+REMARK 500 16 ARG A  80         0.31    SIDE_CHAIN                              
+REMARK 500 16 ARG A  87         0.17    SIDE_CHAIN                              
+REMARK 500 16 ARG A  99         0.24    SIDE_CHAIN                              
+REMARK 500 16 ARG A 103         0.30    SIDE_CHAIN                              
+REMARK 500 16 ARG A 107         0.32    SIDE_CHAIN                              
+REMARK 500 16 ARG A 112         0.32    SIDE_CHAIN                              
+REMARK 500 16 ARG A 124         0.09    SIDE_CHAIN                              
+REMARK 500 16 ARG A 128         0.15    SIDE_CHAIN                              
+REMARK 500 16 ARG A 131         0.32    SIDE_CHAIN                              
+REMARK 500 16 ARG A 138         0.28    SIDE_CHAIN                              
+REMARK 500 16 ARG A 144         0.23    SIDE_CHAIN                              
+REMARK 500 17 ARG A  22         0.24    SIDE_CHAIN                              
+REMARK 500 17 ARG A  24         0.26    SIDE_CHAIN                              
+REMARK 500 17 ARG A  29         0.31    SIDE_CHAIN                              
+REMARK 500 17 ARG A  46         0.25    SIDE_CHAIN                              
+REMARK 500 17 ARG A  47         0.15    SIDE_CHAIN                              
+REMARK 500 17 ARG A  58         0.24    SIDE_CHAIN                              
+REMARK 500 17 ARG A  87         0.32    SIDE_CHAIN                              
+REMARK 500 17 ARG A  99         0.31    SIDE_CHAIN                              
+REMARK 500 17 ARG A 103         0.27    SIDE_CHAIN                              
+REMARK 500 17 ARG A 107         0.30    SIDE_CHAIN                              
+REMARK 500 17 ARG A 112         0.24    SIDE_CHAIN                              
+REMARK 500 17 ARG A 124         0.28    SIDE_CHAIN                              
+REMARK 500 17 ARG A 128         0.31    SIDE_CHAIN                              
+REMARK 500 17 ARG A 131         0.32    SIDE_CHAIN                              
+REMARK 500 17 ARG A 138         0.22    SIDE_CHAIN                              
+REMARK 500 17 ARG A 144         0.28    SIDE_CHAIN                              
+REMARK 500 18 ARG A  22         0.28    SIDE_CHAIN                              
+REMARK 500 18 ARG A  24         0.28    SIDE_CHAIN                              
+REMARK 500 18 ARG A  29         0.26    SIDE_CHAIN                              
+REMARK 500 18 ARG A  46         0.27    SIDE_CHAIN                              
+REMARK 500 18 ARG A  47         0.23    SIDE_CHAIN                              
+REMARK 500 18 ARG A  58         0.24    SIDE_CHAIN                              
+REMARK 500 18 ARG A  80         0.29    SIDE_CHAIN                              
+REMARK 500 18 ARG A  99         0.25    SIDE_CHAIN                              
+REMARK 500 18 ARG A 103         0.20    SIDE_CHAIN                              
+REMARK 500 18 ARG A 107         0.32    SIDE_CHAIN                              
+REMARK 500 18 ARG A 112         0.27    SIDE_CHAIN                              
+REMARK 500 18 ARG A 124         0.30    SIDE_CHAIN                              
+REMARK 500 18 ARG A 128         0.29    SIDE_CHAIN                              
+REMARK 500 18 ARG A 131         0.30    SIDE_CHAIN                              
+REMARK 500 18 ARG A 138         0.32    SIDE_CHAIN                              
+REMARK 500 18 ARG A 144         0.29    SIDE_CHAIN                              
+REMARK 500 19 ARG A  22         0.12    SIDE_CHAIN                              
+REMARK 500 19 ARG A  24         0.21    SIDE_CHAIN                              
+REMARK 500 19 ARG A  29         0.27    SIDE_CHAIN                              
+REMARK 500 19 ARG A  46         0.28    SIDE_CHAIN                              
+REMARK 500 19 ARG A  47         0.22    SIDE_CHAIN                              
+REMARK 500 19 ARG A  58         0.28    SIDE_CHAIN                              
+REMARK 500 19 ARG A  80         0.30    SIDE_CHAIN                              
+REMARK 500 19 ARG A  87         0.26    SIDE_CHAIN                              
+REMARK 500 19 ARG A  99         0.32    SIDE_CHAIN                              
+REMARK 500 19 ARG A 103         0.28    SIDE_CHAIN                              
+REMARK 500 19 ARG A 107         0.23    SIDE_CHAIN                              
+REMARK 500 19 ARG A 112         0.20    SIDE_CHAIN                              
+REMARK 500 19 ARG A 124         0.19    SIDE_CHAIN                              
+REMARK 500 19 ARG A 128         0.15    SIDE_CHAIN                              
+REMARK 500 19 ARG A 131         0.18    SIDE_CHAIN                              
+REMARK 500 19 ARG A 138         0.18    SIDE_CHAIN                              
+REMARK 500 19 ARG A 144         0.30    SIDE_CHAIN                              
+REMARK 500 20 ARG A  22         0.30    SIDE_CHAIN                              
+REMARK 500 20 ARG A  24         0.23    SIDE_CHAIN                              
+REMARK 500 20 ARG A  29         0.32    SIDE_CHAIN                              
+REMARK 500 20 ARG A  46         0.29    SIDE_CHAIN                              
+REMARK 500 20 ARG A  47         0.31    SIDE_CHAIN                              
+REMARK 500 20 ARG A  58         0.29    SIDE_CHAIN                              
+REMARK 500 20 ARG A  80         0.20    SIDE_CHAIN                              
+REMARK 500 20 ARG A  87         0.20    SIDE_CHAIN                              
+REMARK 500 20 ARG A  99         0.23    SIDE_CHAIN                              
+REMARK 500 20 ARG A 103         0.31    SIDE_CHAIN                              
+REMARK 500 20 ARG A 107         0.24    SIDE_CHAIN                              
+REMARK 500 20 ARG A 112         0.28    SIDE_CHAIN                              
+REMARK 500 20 ARG A 128         0.25    SIDE_CHAIN                              
+REMARK 500 20 ARG A 131         0.21    SIDE_CHAIN                              
+REMARK 500 20 ARG A 138         0.31    SIDE_CHAIN                              
+REMARK 500 20 ARG A 144         0.18    SIDE_CHAIN                              
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 900                                                                      
+REMARK 900 RELATED ENTRIES                                                      
+REMARK 900 RELATED ID: 1A5E   RELATED DB: PDB                                   
+REMARK 900 1A5E CONTAINS THE SAME PROTEIN STRUCTURES WITH LESS                  
+REMARK 900 EXPERIMENTAL CONSTRAINTS                                             
+DBREF  1DC2 A    1   156  UNP    P42771   CDN2A_HUMAN      1    156             
+SEQRES   1 A  156  MET GLU PRO ALA ALA GLY SER SER MET GLU PRO SER ALA          
+SEQRES   2 A  156  ASP TRP LEU ALA THR ALA ALA ALA ARG GLY ARG VAL GLU          
+SEQRES   3 A  156  GLU VAL ARG ALA LEU LEU GLU ALA GLY ALA LEU PRO ASN          
+SEQRES   4 A  156  ALA PRO ASN SER TYR GLY ARG ARG PRO ILE GLN VAL MET          
+SEQRES   5 A  156  MET MET GLY SER ALA ARG VAL ALA GLU LEU LEU LEU LEU          
+SEQRES   6 A  156  HIS GLY ALA GLU PRO ASN CYS ALA ASP PRO ALA THR LEU          
+SEQRES   7 A  156  THR ARG PRO VAL HIS ASP ALA ALA ARG GLU GLY PHE LEU          
+SEQRES   8 A  156  ASP THR LEU VAL VAL LEU HIS ARG ALA GLY ALA ARG LEU          
+SEQRES   9 A  156  ASP VAL ARG ASP ALA TRP GLY ARG LEU PRO VAL ASP LEU          
+SEQRES  10 A  156  ALA GLU GLU LEU GLY HIS ARG ASP VAL ALA ARG TYR LEU          
+SEQRES  11 A  156  ARG ALA ALA ALA GLY GLY THR ARG GLY SER ASN HIS ALA          
+SEQRES  12 A  156  ARG ILE ASP ALA ALA GLU GLY PRO SER ASP ILE PRO ASP          
+HELIX    1   1 ASP A   14  ARG A   22  1                                   9    
+HELIX    2   2 ARG A   24  GLY A   35  1                                  12    
+HELIX    3   3 SER A   56  GLY A   67  1                                  12    
+HELIX    4   4 ARG A   80  GLY A   89  1                                  10    
+HELIX    5   5 PHE A   90  ALA A  100  1                                  11    
+HELIX    6   6 LEU A  113  GLY A  122  1                                  10    
+HELIX    7   7 HIS A  123  GLY A  135  1                                  13    
+CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      1.000000  0.000000  0.000000        0.00000                         
+SCALE2      0.000000  1.000000  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  1.000000        0.00000                         
+MODEL        1                                                                  
