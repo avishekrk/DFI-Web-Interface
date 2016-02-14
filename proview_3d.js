@@ -5,8 +5,8 @@ var iv = new iview('iview');
 var options = {};
 options["camera"] = "perspective";
 options["background"] = "white";
-options["primaryStructure"] = "lines";
-options["secondaryStructure"] = "cylinder & plate";
+//options["primaryStructure"] = "lines";
+options["secondaryStructure"] = "ribbon";
 options["colorBy"] = "B factor";
 options["ligands"] = "nothing";
 options["waters"] = "nothing";
@@ -23,6 +23,9 @@ $("#pdbInput").change(function() {
     if (file === undefined) return;
 
     var reader = new FileReader();
+    //run /dfi/dfi.py --pdb #pdbInput 
+    //visualize pdb 
+    //load the csvfile
     reader.onload = function () {
 
         // Reset the current visualization
@@ -55,6 +58,6 @@ function clearHighlight3D(){
 }
 
 // Load the example file if it's available
-$.get("pdb/3KFN.pdb",function(pdb){
+$.get('pdb/1dc2.pdb',function(pdb){
     iv.loadPDB(pdb);
 })

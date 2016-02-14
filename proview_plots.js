@@ -455,7 +455,7 @@ $("#csvInput").change(function() {
 setup_vis1();
 setup_vis2();
 
-$.get("pdb/3KFN.csv",function(csv){
+$.get("pdb/1dc2-dfianalysis.csv",function(csv){
     load_dataset(csv);
 })
 

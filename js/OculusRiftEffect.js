@@ -13,7 +13,7 @@ THREE.OculusRiftEffect = function ( renderer, options ) {
 	// Specific HMD parameters
 	var HMD = (options && options.HMD) ? options.HMD: {
 		// DK1
-		/*
+		
 		hResolution: 1280,
 		vResolution: 800,
 		hScreenSize: 0.14976,
@@ -23,8 +23,9 @@ THREE.OculusRiftEffect = function ( renderer, options ) {
 		eyeToScreenDistance: 0.041,
 		distortionK : [1.0, 0.22, 0.24, 0.0],
 		chromaAbParameter: [ 0.996, -0.004, 1.014, 0.0]
-		*/
+		
 		// DK2
+                /*
 		hResolution: 1920,
 		vResolution: 1080,
 		hScreenSize: 0.12576,
@@ -34,7 +35,8 @@ THREE.OculusRiftEffect = function ( renderer, options ) {
 		eyeToScreenDistance: 0.041,
 		distortionK : [1.0, 0.22, 0.24, 0.0],
 		chromaAbParameter: [ 0.996, -0.004, 1.014, 0.0]
-	};
+                */
+                };
 	this.HMD = HMD;
 
 	// Perspective camera
