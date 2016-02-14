@@ -7,12 +7,12 @@ options["camera"] = "perspective";
 options["background"] = "white";
 options["primaryStructure"] = "lines";
 options["secondaryStructure"] = "cylinder & plate";
-options["colorBy"] = "spectrum";
+options["colorBy"] = "B factor";
 options["ligands"] = "nothing";
 options["waters"] = "nothing";
 options["ions"] = "nothing";
 options["selectedRes"] = [];
-options["labels"] = "yes";
+//options["labels"] = "yes";
 iv.rebuildScene(options);
 iv.render();
 

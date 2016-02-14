@@ -1279,7 +1279,7 @@ void main()\n\
 				break;
 			case 'B factor':
 				if (!this.middB) {
-					var minB = 1000, maxB = -1000;
+					var minB = 0, maxB = 1;
 					for (var i in this.atoms) {
 						var atom = this.atoms[i];
 						if (minB > atom.b) minB = atom.b;
