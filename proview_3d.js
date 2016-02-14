@@ -12,7 +12,7 @@ options["ligands"] = "nothing";
 options["waters"] = "nothing";
 options["ions"] = "nothing";
 options["selectedRes"] = [];
-//options["labels"] = "yes";
+options["labels"] = "yes";
 iv.rebuildScene(options);
 iv.render();
 
