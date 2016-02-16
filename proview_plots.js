@@ -10,7 +10,8 @@ var brush_container2;
 var nSize; // Number of columns inputted in CSV file
 
 // Set some dynamic dimensions and scale axis
-var w=$("#plots").width() / 2 - 15;
+var w=$("#plots").width()/ 2;
+//var w=$("#plots").width() / 2 - 15;
 var h=$("#iview").height();
 var padding = 50;
 

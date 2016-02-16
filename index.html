@@ -19,10 +19,104 @@
     <script src="js/surface.min.js" charset="utf-8"></script>
 
     <title>DFI</title>
+
+
+
+<h1 class="text-center">Dynamic Flexiblity Index (DFI)</h1>
+
+<h2> Introduction</h2>
+<p>Dynamic flexibility index (DFI) is a measure of each residue’s contribution to a protein’s dynamics, where blue 
+is the lowest (most rigid) and red is the highest (most flexible). Traditionally, proteins were thought to obey the 
+sequence-structure-function paradigm—the function of a protein is embedded in its structure. The new paradigm is the 
+sequence-structure encoded-dynamics-functions paradigm—a protein’s structure encodes its dynamics, which encodes 
+its function, leading to a deeper understanding of protein function. Our proteome-wide conformational dynamics analysis 
+using DFI indicates that certain sites play a critical role in functionally related dynamics (i.e., those with low dfi 
+values), therefore, mutations at those sites are more likely to be associated with disease. </p>
+<h2>Inputs</h2>
+
+<p>Given a <strong>PDB structure</strong> from the Protein Data Bank, the DFI program will produce the DFI profile of 
+the protein that can then be examined to uderstand the functionally critical parts of the protein. The above protein 
+and dfi profile is for is fpr <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId=1DC2">1DC2</a>.</p>
+<p>Given a <strong>Uniprot Protein Accession Code</strong>, the DFI program will obtain the fasta sequence and do a 
+blast seearch to find protein structures in the Protein Data Bank that have a similiar sequence. The program will then 
+find all structures that have greater than 80% Query Coverage and 80% Sequence Identity. The structure with the highest 
+Query Coverage and Sequence Identity is selected and used for the DFI analysis. </p>
+<h3>Example</h3>
+<p>Uniprot code: P42771</p>
+<p>After entering the Uniprot code the program does a Blast search and finds the relevant hits and displays them. </p>
+
+<div class = "panel-group" id="accordian" role="tablist" aria-multiselecttable="true">
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordian" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Blast Results of P42771
+                </a>
+            </h4>
+        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+
+	      
+<div data-role="main" class="ui-content">
+    <div data-role="collapsible">
+    <h3>Blast Results of P42771</h3>
+    <table border="1" class="table">
+    <thead>
+        <tr style="text-align: right;">
+        <th>Uniprot</th>
+        <th>PDBid</th>
+        <th>chain</th>
+        <th>query_to</th>
+        <th>query_from</th>
+        <th>IterQueryLen</th>
+         <th>e-value</th>
+         <th>QueryCov</th>
+        <th>SeqId</th>
+        </tr>
+      </thead>
+     <tbody>
+      <tr>
+          <td>P42771</td>
+         <td>1DC2</td>
+         <td>A</td>
+         <td>156</td>
+         <td>1</td>
+         <td>156</td>
+         <td>7.818990e-107</td>
+         <td>99</td>
+         <td>100</td>
+     </tr>
+        <tr>
+       <td>P42771</td>
+          <td>1BI7</td>
+          <td>B</td>
+         <td>156</td>
+          <td>1</td>
+         <td>156</td>
+         <td>1.099820e-105</td>
+         <td>99</td>
+         <td>99</td>
+     </tr>
+     </tbody>
+</table>
+    </div>
+</div>
+
+
+
+
+            </div>
+            </div>
+            </div>     
+        </div>
+    </div>
+
+
     
 </head>
 <body>
-    <div class="container">
+
+    <div class="container-fluid"> 
 
         <h1 class="text-center">Dynamic Flexibility Index (DFI)</h1>
 
@@ -54,17 +148,17 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <label for="opts2_1">Plot 2:</label>
-                        <div class="form-inline">
-                            <select id="opts2_1" class="form-control">
-                                <option value="-1">Select X</option>
-                            </select>
-                            <select id="opts2_2" class="form-control">
-                                <option value="-1">Select Y</option>
-                            </select>
-                        </div>
-                    </div>
+                    <div class="col-md-6"> 
+                        <label for="opts2_1">Plot 2:</label> 
+                       <div class="form-inline"> 
+                            <select id="opts2_1" class="form-control"> 
+                               <option value="-1">Select X</option>
+                            </select> 
+                           <select id="opts2_2" class="form-control">
+                               <option value="-1">Select Y</option> 
+                            </select> 
+                        </div> 
+                     </div>  
                 </div>
             </div>
         </div>
@@ -77,10 +171,8 @@
             </div>
             <div class="col-md-6">
                 <div class="row" id="plots">
-                    <div class="col-md-6" id="plot1">
-                    </div>
-                    <div class="col-md-6" id="plot2">
-                    </div>
+                    <div class="col-md-6" id="plot1"> </div>
+                    <div class="col-md-6" id="plot2"></div> 
                 </div>
             </div>
         </div>
@@ -91,3 +183,8 @@
     <script src="proview_3d.js" charset="utf-8"></script>
     <script src="proview_plots.js" charset="utf-8"></script>
 </body>
+
+
+<h3>Disease Prediction</h3>
+<p>After training against the HumVar and HumDiv dataset. Provide a prediction on whether a mutation on the site will 
+lead to a mutations using logistic regression. </p>
