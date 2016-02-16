@@ -43,6 +43,17 @@ blast seearch to find protein structures in the Protein Data Bank that have a si
 find all structures that have greater than 80% Query Coverage and 80% Sequence Identity. The structure with the highest 
 Query Coverage and Sequence Identity is selected and used for the DFI analysis. </p>
 <h3>Example</h3>
+<div class="row" id="uni_control">
+  <div class="col-md-5">
+    <div class="row">
+      <div class="col-md-5 form-group">
+	<label for="uniprotID">Uniprot:</label>
+        <input type="text" id="uniprotID" class="form-control", value="P42771">
+      </div>
+    </div>
+  </div>
+</div>
+
 <p>Uniprot code: P42771</p>
 <p>After entering the Uniprot code the program does a Blast search and finds the relevant hits and displays them. </p>
 
@@ -128,11 +139,11 @@ Query Coverage and Sequence Identity is selected and used for the DFI analysis. 
         <div class="row" id="controls">
             <div class="col-md-5">
                 <div class="row">
-                    <div class="col-md-6 form-group">
+                    <div class="col-md-5 form-group">
                         <label for="pdbInput">PDB:</label>
                         <input type="file" id="pdbInput" class="form-control">
                     </div>
-                    <div class="col-md-6 form-group">
+                    <div class="col-md-5 form-group">
                         <label for="csvInput">CSV:</label>
                         <input type="file" id="csvInput" class="form-control">
                     </div>
