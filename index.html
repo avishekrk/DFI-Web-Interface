@@ -49,12 +49,12 @@ Query Coverage and Sequence Identity is selected and used for the DFI analysis. 
       <div class="col-md-5 form-group">
 	<label for="uniprotID">Uniprot:</label>
         <input type="text" id="uniprotID" class="form-control", value="P42771">
+        <button type="button" onclick="myFunction()">Submit</button>
       </div>
     </div>
   </div>
 </div>
-
-<p>Uniprot code: P42771</p>
+<p id="demo"></p>
 <p>After entering the Uniprot code the program does a Blast search and finds the relevant hits and displays them. </p>
 
 <div class = "panel-group" id="accordian" role="tablist" aria-multiselecttable="true">
@@ -190,6 +190,18 @@ Query Coverage and Sequence Identity is selected and used for the DFI analysis. 
                 </div>
             </div>
         </div>
+
+
+
+    <script> 
+    function myFunction(){
+    var x, text; 
+    //Get the value of the input field with id"uniprotID"
+    x = document.getElementById("uniprotID").value; 
+    text = "Uniprot: " + x; 
+    document.getElementById("demo").innerHTML = text; 
+    }
+    </script>
 
 
     <!-- POST-LOADING JS -->
